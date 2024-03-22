@@ -10,7 +10,9 @@ namespace Core.Interfaces
     public interface ICategoriesService
     {
         Task<List<CategoryDTO>> GetAllAsync();
-        Task CreateAsync(CategoryCreateDTO genre);
+        Task CreateAsync(CategoryCreateDTO category);
+        Task DeleteAsync(int id);
+        Task EditAsync(CategoryDTO category);
 
     }
 }

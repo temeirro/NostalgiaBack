@@ -15,3 +15,4 @@ namespace Core.DTOs
         public IEnumerable<Post> Posts { get; } = new List<Post>();
     }
 }
+ 

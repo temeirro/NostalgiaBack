@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VveBsIuRUXRRLkvGDpWvMJnSK12djQ2FLhtRPSanY2Bto5G2qeM2z7ca5fMPHJH2a9fNlkYyMQyNiGsn1b16+Q==",
+  "dgSpecHash": "sE8yqRzmLlERs3TcsXcieOljNObVH5cgYTR0Pr+Z/IgMP+Fhpttcy9wIOMjhvN+AnAnjz36dWgh7wIT47kBIog==",
   "success": true,
   "projectFilePath": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\Core\\Core.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\artro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\artro\\.nuget\\packages\\sixlabors.imagesharp\\3.1.3\\sixlabors.imagesharp.3.1.3.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

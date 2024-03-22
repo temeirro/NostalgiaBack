@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPG6iypTAZlnPU6uCfBAYpmbpJr2hVsy0GVnK1BphXekR8NV4hXCLHM4G4kbqUhSCxxnQw3BdAjvaJnCwAnCJg==",
+  "dgSpecHash": "h7HqFjW/Hth5h00TYncxZygo0YfKaNStz//X3H4pb5Wwr7FVqpUGYfDv0XX2VmjzUgaqWMXNezQ2qO8YhGUc8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\artro\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\artro\\.nuget\\packages\\sixlabors.imagesharp\\3.1.3\\sixlabors.imagesharp.3.1.3.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

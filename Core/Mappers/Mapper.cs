@@ -15,6 +15,16 @@ namespace Core.Mappers
             CreateMap<CategoryDTO, Category>().ReverseMap();
             CreateMap<CategoryCreateDTO, Category>();
 
+            CreateMap<TagDTO, Tag>().ReverseMap();
+            CreateMap<TagCreateDTO, Tag>();
+
+            CreateMap<PostDTO, Post>();
+            CreateMap<PostCreateDTO, Post>();
+            CreateMap<Post, PostDTO>().ForMember(dto => dto.ImagesPath, opt => opt.MapFrom(o => o.PostImages.Select(a => a.ImagePath)));
+
+            CreateMap<PostImageDTO, PostImage>().ReverseMap();
+
+
         }
     }
 }

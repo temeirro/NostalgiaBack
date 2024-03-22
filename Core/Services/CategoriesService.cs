@@ -31,6 +31,18 @@ namespace Core.Services
             await _repoCategory.InsertAsync(_mapper.Map<Category>(category));
             await _repoCategory.SaveAsync();
         }
+        public async Task DeleteAsync(int id)
+        {
+            if (await _repoCategory.GetByIDAsync(id) == null)
+                return;
+            await _repoCategory.DeleteAsync(id);
+            await _repoCategory.SaveAsync();
+        }
+        public async Task EditAsync(CategoryDTO category)
+        {
+            await _repoCategory.UpdateAsync(_mapper.Map<Category>(category));
+            await _repoCategory.SaveAsync();
+        }
     }
 
 }

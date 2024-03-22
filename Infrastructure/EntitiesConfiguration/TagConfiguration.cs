@@ -24,6 +24,7 @@ namespace Infrastructure.EntitiesConfiguration
             builder.Property(t => t.Description)
                    .HasMaxLength(300);
 
+
         }
     }
 }

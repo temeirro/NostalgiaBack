@@ -18,6 +18,9 @@ namespace Core
         public static void AddCustomServices(this IServiceCollection servicesCollection)
         {
             servicesCollection.AddScoped<ICategoriesService, CategoriesService>();
+            servicesCollection.AddScoped<ITagsService, TagsService>();
+            servicesCollection.AddScoped<IPostImageService, PostImagesService>();
+            servicesCollection.AddScoped<IFilesService, FilesService>();
         }
     }
 }

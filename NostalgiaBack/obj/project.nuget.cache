@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xlbqhYvRX6PQ8Uc+CgDyxsg89bUu9LDKM48k9WZbEwdJHYHUSc6IQWzUEJNtdowtFI5YJZxRgg5aDW8zWnIBOg==",
+  "dgSpecHash": "GqfeQpjNQ74H52XuVYW4Oh5gQJffc6xe00PSCm3IDpaKldUYHGNbxxuGzqh6a1NT+WNdOP8DIAcgDBLflw309w==",
   "success": true,
   "projectFilePath": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\NostalgiaBack.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\artro\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\artro\\.nuget\\packages\\sixlabors.imagesharp\\3.1.3\\sixlabors.imagesharp.3.1.3.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\artro\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

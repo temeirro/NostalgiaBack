@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "CQuVOnwDpevWYbdil4gM8OPEIuKVtK/Ipe1Qkh8rI9s=",
+  "Hash": "eDJyHtjog6HHVWX3iYwhMkElA1xgTM4q2hGl8ciE6Kw=",
   "Source": "NostalgiaBack",
   "BasePath": "_content/NostalgiaBack",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NostalgiaBack\\wwwroot",
+      "Source": "NostalgiaBack",
+      "ContentRoot": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\wwwroot\\",
+      "BasePath": "_content/NostalgiaBack",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

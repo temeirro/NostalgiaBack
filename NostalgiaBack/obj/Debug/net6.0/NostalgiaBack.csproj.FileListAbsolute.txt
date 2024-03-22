@@ -95,3 +95,5 @@ C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\Core.pd
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\Infrastructure.pdb
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\NostalgiaBack.staticwebassets.runtime.json
