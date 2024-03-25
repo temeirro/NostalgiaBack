@@ -11,6 +11,9 @@ namespace Core.Interfaces
     {
         Task<List<PostDTO>> GetAllAsync();
         Task CreateAsync(PostCreateDTO postDTO);
+        Task DeletePostByIDAsync(int id);
+        Task<PostDTO?> GetByIdAsync(int id);
+
 
     }
 }

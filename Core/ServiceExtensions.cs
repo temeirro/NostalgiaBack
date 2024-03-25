@@ -21,6 +21,7 @@ namespace Core
             servicesCollection.AddScoped<ITagsService, TagsService>();
             servicesCollection.AddScoped<IPostImageService, PostImagesService>();
             servicesCollection.AddScoped<IFilesService, FilesService>();
+            servicesCollection.AddScoped<IPostsService, PostsService>();
         }
     }
 }

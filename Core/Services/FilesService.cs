@@ -53,5 +53,23 @@ namespace Core.Services
                 return ex.Message;
             }
         }
+
+        public async Task DeletePostImage(string imagePath)
+        {
+            await Task.Run(() =>
+            {
+                string root = _environment.WebRootPath;
+                foreach (int size in sizes)
+                {
+                    string fullRoot = Path.Combine(root, imageFolder);
+                    string imageSizePath = $"{size}_{imagePath}";
+                    string imageFullPath = Path.Combine(fullRoot, imageSizePath);
+                    if (File.Exists(imageFullPath))
+                    {
+                        File.Delete(imageFullPath);
+                    }
+                }
+            });
+        }
     }
 }

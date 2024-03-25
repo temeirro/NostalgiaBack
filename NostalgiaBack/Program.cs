@@ -1,15 +1,23 @@
 using Core;
 using Infrastructure;
 using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using SixLabors.ImageSharp;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-string connection = builder.Configuration.GetConnectionString("NostalgiaContextConnection") ?? throw new InvalidOperationException("Connection string 'NostalgiaContextConnection' not found.");
+//var Configuration = builder.Configuration;
+//AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+//builder.Services.AddDbContext<DataBaseContext>(options =>
+//        options.UseNpgsql(Configuration.GetConnectionString("NostalgiaPostgresConnection")));
 
+string connection = builder.Configuration.GetConnectionString("NostalgiaSQLContextConnection") ?? throw new InvalidOperationException("Connection string 'ShopMVCConnection' not found.");
 builder.Services.AddDbContext(connection);
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

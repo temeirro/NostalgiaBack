@@ -13,7 +13,7 @@ namespace Core.DTOs
         public string Title { get; set; }
         public string ShortDescription { get; set; }
         public string Description { get; set; }
-        public DateTime Published { get; set; }
+        public DateTime PostedOn { get; set; }
         public DateTime Modified { get; set; }
 
         public int CategoryId { get; set; }

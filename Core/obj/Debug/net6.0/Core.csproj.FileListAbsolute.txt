@@ -10,3 +10,4 @@ C:\Users\artro\source\repos\NostalgiaBack\Core\obj\Debug\net6.0\Core.dll
 C:\Users\artro\source\repos\NostalgiaBack\Core\obj\Debug\net6.0\refint\Core.dll
 C:\Users\artro\source\repos\NostalgiaBack\Core\obj\Debug\net6.0\Core.pdb
 C:\Users\artro\source\repos\NostalgiaBack\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\artro\source\repos\NostalgiaBack\Core\obj\Debug\net6.0\Core.sourcelink.json

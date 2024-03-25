@@ -73,10 +73,41 @@ namespace Core.Services
                 }
             }
         }
-
-        public Task<List<PostDTO>> GetAllAsync()
+        public async Task<PostDTO?> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            if (await _postRepository.GetByIDAsync(id) == null)
+                return null;
+            return _mapper.Map<PostDTO>(await _postRepository.GetByIDAsync(id));
+        }
+        public async Task<List<PostDTO>> GetAllAsync()
+        {
+            var posts = await _postRepository.GetAsync();
+            return _mapper.Map<List<PostDTO>>(posts);
+        }
+
+        public async Task DeletePostByIDAsync(int id)
+        {
+            var post = await _postRepository.GetByIDAsync(id);
+            var imageClass = await _postImagesService.GetImagesByPostIDAsync(id)!;
+            if (imageClass != null)
+            {
+                foreach (var image in imageClass)
+                {
+                    await _filesService.DeletePostImage(image.ImagePath!);
+                }
+                foreach (var image in imageClass)
+                {
+                    await _postImageRepository.DeleteAsync(image.Id);
+                    await _postImageRepository.SaveAsync();
+                }
+            }
+          
+            var postToDelete = await _postRepository.GetByIDAsync(id);
+            if (postToDelete != null)
+            {
+                await _postRepository.DeleteAsync(postToDelete);
+                await _postRepository.SaveAsync();
+            }
         }
     }
 }

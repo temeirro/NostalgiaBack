@@ -26,6 +26,12 @@ namespace Core.Services
             var categories = await _repoCategory.GetAsync();
             return _mapper.Map<List<CategoryDTO>>(categories);
         }
+        public async Task<CategoryDTO?> GetByIdAsync(int id)
+        {
+            if (await _repoCategory.GetByIDAsync(id) == null)
+                return null;
+            return _mapper.Map<CategoryDTO>(await _repoCategory.GetByIDAsync(id));
+        }
         public async Task CreateAsync(CategoryCreateDTO category)
         {
             await _repoCategory.InsertAsync(_mapper.Map<Category>(category));

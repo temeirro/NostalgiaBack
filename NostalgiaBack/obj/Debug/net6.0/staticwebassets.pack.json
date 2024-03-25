@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\wwwroot\\uploads\\1200_b39f4c02-f56b-4a71-9625-6427c74876f7.webp",
+      "PackagePath": "staticwebassets\\uploads\\1200_b39f4c02-f56b-4a71-9625-6427c74876f7.webp"
+    },
+    {
+      "Id": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\wwwroot\\uploads\\1200_b51d7785-b6b1-432b-8a95-67d11096e620.webp",
+      "PackagePath": "staticwebassets\\uploads\\1200_b51d7785-b6b1-432b-8a95-67d11096e620.webp"
+    },
+    {
+      "Id": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\wwwroot\\uploads\\320_b39f4c02-f56b-4a71-9625-6427c74876f7.webp",
+      "PackagePath": "staticwebassets\\uploads\\320_b39f4c02-f56b-4a71-9625-6427c74876f7.webp"
+    },
+    {
+      "Id": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\wwwroot\\uploads\\320_b51d7785-b6b1-432b-8a95-67d11096e620.webp",
+      "PackagePath": "staticwebassets\\uploads\\320_b51d7785-b6b1-432b-8a95-67d11096e620.webp"
+    },
+    {
+      "Id": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\wwwroot\\uploads\\600_b39f4c02-f56b-4a71-9625-6427c74876f7.webp",
+      "PackagePath": "staticwebassets\\uploads\\600_b39f4c02-f56b-4a71-9625-6427c74876f7.webp"
+    },
+    {
+      "Id": "C:\\Users\\artro\\source\\repos\\NostalgiaBack\\NostalgiaBack\\wwwroot\\uploads\\600_b51d7785-b6b1-432b-8a95-67d11096e620.webp",
+      "PackagePath": "staticwebassets\\uploads\\600_b51d7785-b6b1-432b-8a95-67d11096e620.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NostalgiaBack.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.NostalgiaBack.props",
+      "PackagePath": "build\\NostalgiaBack.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.NostalgiaBack.props",
+      "PackagePath": "buildMultiTargeting\\NostalgiaBack.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.NostalgiaBack.props",
+      "PackagePath": "buildTransitive\\NostalgiaBack.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

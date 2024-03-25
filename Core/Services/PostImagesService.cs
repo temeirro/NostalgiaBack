@@ -40,5 +40,30 @@ namespace Core.Services
             await _imageRepository.UpdateAsync(image);
             await _imageRepository.SaveAsync();
         }
+        public async Task<PostImageDTO?> GetByIdAsync(int id)
+        {
+            if (await _imageRepository.GetByIDAsync(id) == null)
+                return null;
+            return _mapper.Map<PostImageDTO>(await _imageRepository.GetByIDAsync(id));
+        }
+        public async Task DeleteImageAsync(PostImageDTO imageDTO)
+        {
+            await _filesService.DeletePostImage(imageDTO.ImagePath!);
+            await DeleteByIdAsync(imageDTO.Id);
+        }
+        public async Task DeleteByIdAsync(int id)
+        {
+            var image = await _imageRepository.GetByIDAsync(id);
+            if (image != null)
+            {
+                await _imageRepository.DeleteAsync(image);
+                await _imageRepository.SaveAsync();
+            }
+        }
+        public async Task<List<PostImageDTO>>? GetImagesByPostIDAsync(int id)
+        {
+            var image = await _imageRepository.GetByIDAsync(id);
+            return _mapper.Map<List<PostImageDTO>>(image);
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Core.DTOs;
+using Core.Entities;
 
 public class PostCreateDTO
 {
@@ -11,8 +12,8 @@ public class PostCreateDTO
     public int CategoryId { get; set; }
 
     // List of tag IDs associated with the post
-    public List<int> TagIds { get; set; }
+    public List<int>? TagIds { get; set; }
 
     // Navigation property
-    public List<PostImageDTO> PostImages { get; set; }
+    public List<PostImage>? PostImages { get; set; }
 }

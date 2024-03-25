@@ -10,6 +10,7 @@ namespace Core.Interfaces
     public interface IFilesService
     {
         Task<string> SavePostImage(IFormFile file);
+        Task DeletePostImage(string imagePath);
 
     }
 }

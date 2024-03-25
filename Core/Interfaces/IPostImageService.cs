@@ -13,6 +13,11 @@ namespace Core.Interfaces
     {
         Task<PostImage> CreateImageAsync(IFormFile ImageFile);
         Task EditAsync(PostImageDTO imageDTO);
+        Task<PostImageDTO> GetByIdAsync(int id);
+        Task DeleteImageAsync(PostImageDTO imageDTO);
+        Task DeleteByIdAsync(int id);
+        Task<List<PostImageDTO>>? GetImagesByPostIDAsync(int id);
+
 
     }
 }

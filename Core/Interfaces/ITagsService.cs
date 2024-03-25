@@ -10,6 +10,7 @@ namespace Core.Interfaces
     public interface ITagsService
     {
         Task<List<TagDTO>> GetAllAsync();
+        Task<TagDTO?> GetByIdAsync(int id);
         Task CreateAsync(TagCreateDTO tag);
         Task DeleteAsync(int id);
         Task EditAsync(TagDTO tag);

@@ -16,6 +16,8 @@ namespace Infrastructure.EntitiesConfiguration
             //Set Primary Key
             builder.HasKey(p => p.Id);
 
+            builder.Property(p => p.Id).HasIdentityOptions(startValue: 100);
+
             //Set Property configurations
             builder.Property(p => p.Name)
                    .HasMaxLength(50)

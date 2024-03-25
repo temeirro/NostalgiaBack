@@ -24,7 +24,6 @@ C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\staticw
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\scopedcss\bundle\NostalgiaBack.styles.css
-C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\NostalgiaBack.csproj.CopyComplete
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\NostalgiaBack.dll
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\refint\NostalgiaBack.dll
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\NostalgiaBack.pdb
@@ -97,3 +96,7 @@ C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\AutoMap
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\SixLabors.ImageSharp.dll
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\NostalgiaBack.staticwebassets.runtime.json
+C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\Npgsql.dll
+C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\NostalgiaBack.sourcelink.json
+C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\Nostalgi.305EA611.Up2Date

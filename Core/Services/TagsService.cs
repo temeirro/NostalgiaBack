@@ -30,6 +30,12 @@ namespace Core.Services
             var tags = await _repoTag.GetAsync();
             return _mapper.Map<List<TagDTO>>(tags);
         }
+        public async Task<TagDTO?> GetByIdAsync(int id)
+        {
+            if (await _repoTag.GetByIDAsync(id) == null)
+                return null;
+            return _mapper.Map<TagDTO>(await _repoTag.GetByIDAsync(id));
+        }
         public async Task DeleteAsync(int id)
         {
             if (await _repoTag.GetByIDAsync(id) == null)
