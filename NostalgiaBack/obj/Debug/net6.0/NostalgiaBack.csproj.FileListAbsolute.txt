@@ -100,3 +100,4 @@ C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\Npgsql.
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\NostalgiaBack.sourcelink.json
 C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\obj\Debug\net6.0\Nostalgi.305EA611.Up2Date
+C:\Users\artro\source\repos\NostalgiaBack\NostalgiaBack\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

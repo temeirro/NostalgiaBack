@@ -22,6 +22,7 @@ namespace Core
             servicesCollection.AddScoped<IPostImageService, PostImagesService>();
             servicesCollection.AddScoped<IFilesService, FilesService>();
             servicesCollection.AddScoped<IPostsService, PostsService>();
+            servicesCollection.AddScoped<IAccountsService, AccountsService>();
         }
     }
 }

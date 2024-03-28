@@ -3,6 +3,7 @@ using Infrastructure;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using NostalgiaBack;
 using SixLabors.ImageSharp;
 using System;
 
@@ -19,18 +20,32 @@ string connection = builder.Configuration.GetConnectionString("NostalgiaSQLConte
 builder.Services.AddDbContext(connection);
 
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddControllersWithCustomSchema();
+
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGenWithCustomSchema();
 
 builder.Services.AddRepository();
+
 builder.Services.AddAutoMapper();
+
 builder.Services.AddCustomServices();
 
+builder.Services.AddIdentity();
+
+builder.Services.AddCors();
+
+builder.Services.AddAuthenticationWithOptions(builder.Configuration);
 
 
 var app = builder.Build();
+
+app.UseCors(options =>
+    options.AllowAnyHeader()
+           .AllowAnyOrigin()
+           .AllowAnyMethod());
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -41,7 +56,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 
+app.UseMiddleware<ErrorHandlerMiddleware>();
+
+app.UseCors("AllowLocalhost5173");
+
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

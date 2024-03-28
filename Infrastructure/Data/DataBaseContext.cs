@@ -24,8 +24,8 @@ namespace Infrastructure.Data
             modelBuilder.ApplyConfiguration(new PostTagConfiguration());
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new PostImageConfiguration());
-         
 
+            modelBuilder.Entity<User>().Property(x => x.Id).HasMaxLength(250);
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Post> Posts { get; set; }
@@ -33,6 +33,7 @@ namespace Infrastructure.Data
         public DbSet<PostTag> PostsTags { get; set; }
         public DbSet<PostImage> PostImages { get; set; }
 
+        public DbSet<User> User { get; set; }
 
     }
 }

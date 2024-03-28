@@ -16,6 +16,7 @@ namespace NostalgiaBack.Controllers
         }
 
         [HttpGet] 
+
         public async Task<IActionResult> Get()
         {
             return Ok(await _categoriesService.GetAllAsync());
